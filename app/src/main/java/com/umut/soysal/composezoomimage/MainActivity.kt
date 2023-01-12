@@ -27,8 +27,8 @@ import coil.compose.rememberImagePainter
 import com.umut.soysal.composezoomimage.ui.theme.ComposeZoomImageTheme
 import com.umut.soysal.zoomableimage.ZoomableImage
 
-@ExperimentalCoilApi
 @ExperimentalFoundationApi
+@ExperimentalCoilApi
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,9 +42,8 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-@ExperimentalCoilApi
 @ExperimentalFoundationApi
+@ExperimentalCoilApi
 @Composable
 fun ImageZoom() {
     val scrollState = rememberScrollState()
