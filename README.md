@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/ivankostadinovic/ComposeZoomableImage.svg)](https://jitpack.io/#ivankostadinovic/ComposeZoomableImage)
+
 # ComposeZoomableImage
 
 - Scroll support
@@ -11,7 +13,7 @@
 
 # Setup
 
-Clone this repo and use the contens of the [ZoomableImage](https://github.com/joaopegoraro/ComposeZoomableImagePlus/blob/main/zoomableimage/src/main/java/com/umut/soysal/zoomableimage/ZoomableImage.kt) file
+implementation 'com.github.ivankostadinovic:ComposeZoomableImage:<latest-version>'
 
 # Usage
 
