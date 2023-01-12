@@ -2,6 +2,7 @@
 
 # ComposeZoomableImage
 
+Forked from https://github.com/umutsoysl/ComposeZoomableImage for my own purposes. 
 - Scroll support
 - Double-tap zoom
 - More optional parameters for better vesatility
@@ -39,8 +40,6 @@
 
 License
 --------
-
-
     Copyright 2021 Umut Soysal.
 
     Licensed under the Apache License, Version 2.0 (the "License");
