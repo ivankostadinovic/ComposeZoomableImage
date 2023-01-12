@@ -23,7 +23,7 @@ Forked from https://github.com/umutsoysl/ComposeZoomableImage for my own purpose
  val painter = BitmapPainter(bitmap)
 
  // image url - with coil library
- val painter = rememberImagePainter("https://imgrosetta.mynet.com.tr/file/12220872/12220872-1200x824.jpg")
+ val painter = rememberAsyncImagePainter("https://imgrosetta.mynet.com.tr/file/12220872/12220872-1200x824.jpg")
 
  // resource drawable
  val painter = painterResource(id = R.drawable.compose)
