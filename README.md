@@ -13,7 +13,7 @@
 
 # Setup
 
-implementation 'com.github.ivankostadinovic:ComposeZoomableImage:<latest-version>'
+```implementation 'com.github.ivankostadinovic:ComposeZoomableImage:<latest-version>'```
 
 # Usage
 
