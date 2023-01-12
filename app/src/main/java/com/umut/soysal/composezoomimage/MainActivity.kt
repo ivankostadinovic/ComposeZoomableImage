@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.toBitmap
 import coil.annotation.ExperimentalCoilApi
+import coil.compose.rememberAsyncImagePainter
 import coil.compose.rememberImagePainter
 import com.umut.soysal.composezoomimage.ui.theme.ComposeZoomImageTheme
 import com.umut.soysal.zoomableimage.ZoomableImage
@@ -55,7 +56,7 @@ fun ImageZoom() {
             .verticalScroll(scrollState)
     ) {
         repeat(3) {
-            val painter = rememberImagePainter("https://imgrosetta.mynet.com.tr/file/12220872/12220872-1200x824.jpg")
+            val painter = rememberAsyncImagePainter("https://imgrosetta.mynet.com.tr/file/12220872/12220872-1200x824.jpg")
             CreateImageRow(
                 painter = painter,
                 title = "Zoom Image URL",
