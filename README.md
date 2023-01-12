@@ -1,5 +1,8 @@
+[![](https://jitpack.io/v/ivankostadinovic/ComposeZoomableImage.svg)](https://jitpack.io/#ivankostadinovic/ComposeZoomableImage)
+
 # ComposeZoomableImage
 
+Forked from https://github.com/umutsoysl/ComposeZoomableImage for my own purposes. 
 - Scroll support
 - Double-tap zoom
 - More optional parameters for better vesatility
@@ -11,7 +14,7 @@
 
 # Setup
 
-Clone this repo and use the contens of the [ZoomableImage](https://github.com/joaopegoraro/ComposeZoomableImagePlus/blob/main/zoomableimage/src/main/java/com/umut/soysal/zoomableimage/ZoomableImage.kt) file
+```implementation 'com.github.ivankostadinovic:ComposeZoomableImage:<latest-version>'```
 
 # Usage
 
@@ -20,7 +23,7 @@ Clone this repo and use the contens of the [ZoomableImage](https://github.com/jo
  val painter = BitmapPainter(bitmap)
 
  // image url - with coil library
- val painter = rememberImagePainter("https://imgrosetta.mynet.com.tr/file/12220872/12220872-1200x824.jpg")
+ val painter = rememberAsyncImagePainter("https://imgrosetta.mynet.com.tr/file/12220872/12220872-1200x824.jpg")
 
  // resource drawable
  val painter = painterResource(id = R.drawable.compose)
@@ -37,8 +40,6 @@ Clone this repo and use the contens of the [ZoomableImage](https://github.com/jo
 
 License
 --------
-
-
     Copyright 2021 Umut Soysal.
 
     Licensed under the Apache License, Version 2.0 (the "License");
